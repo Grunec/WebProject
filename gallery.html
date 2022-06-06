@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery</title>
+<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+
+
+
+</style>
+
+
+
+</head>
+
+
+<body>
+
+
+
+<div id="menu">
+	<img src="pictures/cover.jpg" width="100%"; height="60%">
+	<nav>                 
+	    <ul>
+		    <li><a href="index.html">HOME</a></li>
+		    <li><a href="about.html">ABOUT</a></li>
+		    <li><a href="categories.html">CATEGORIES</a></li>
+		    <li><a href="gallery.html">GALLERY</a></li>
+		    <li><a href="contact.html">CONTACT</a></li> 
+		    <li><marquee direction="right" behaviour="scroll" width="700%"><img src="pictures/gif.gif" width="50px" height="39px"></marquee></li>
+	    </ul>
+    </nav> 
+    <p style="text-align: right; color: #21437a; font-weight: bold;" id="Clock"></p> 
+</div>
+
+
+<div id="content">
+
+	<h3>Sailing in Ohrid</h3>
+	<marquee direction="left" behaviour="scroll" onMouseOver="javascript:stop()" onMouseOut="javascript:start()">
+		<img src="pictures/oh1.jpg" width="280" height="200">
+	    <img src="pictures/oh2.jpg" width="280" height="200">
+	    <img src="pictures/oh3.jpg" width="280" height="200">
+	    <img src="pictures/oh4.jpg" width="280" height="200">
+	    <img src="pictures/oh5.jpg" width="280" height="200">
+	    <img src="pictures/oh6.jpg" width="280" height="200">
+	    <img src="pictures/oh7.jpg" width="280" height="200">
+	    <img src="pictures/oh8.jpg" width="280" height="200">
+	</marquee>
+	<h3>Olympic Games</h3>
+	<a class="pic" href="pictures/1.jpg" target="_blank"> <img src="pictures/1.jpg" width="280" height="200"></a>
+	<a class="pic" href="pictures/2.jpg" target="_blank"> <img src="pictures/2.jpg" width="280" height="200"></a>
+	<a class="pic" href="pictures/3.jpg" target="_blank"> <img src="pictures/3.jpg" width="280" height="200"></a>
+	<a class="pic" href="pictures/4.jpg" target="_blank"> <img src="pictures/4.jpg" width="280" height="200"></a>
+	<a class="pic" href="pictures/5.jpg" target="_blank"> <img src="pictures/5.jpg" width="280" height="200"></a>
+	<a class="pic" href="pictures/6.jpg" target="_blank"> <img src="pictures/6.jpg" width="280" height="200"></a>
+	<a class="pic" href="pictures/7.jpg" target="_blank"> <img src="pictures/7.jpg" width="280" height="200"></a>
+	<a class="pic" href="pictures/8.jpg" target="_blank"> <img src="pictures/8.jpg" width="280" height="200"></a>
+	<a class="pic" href="pictures/9.jpg" target="_blank"> <img src="pictures/9.jpg" width="280" height="200"></a>
+	<a class="pic" href="pictures/10.jpg" target="_blank"> <img src="pictures/10.jpg" width="280" height="200"></a>
+	<a class="pic" href="pictures/11.jpg" target="_blank"> <img src="pictures/11.jpg" width="280" height="200"></a>
+	<a class="pic" href="pictures/12.jpg" target="_blank"> <img src="pictures/12.jpg" width="280" height="200"></a>
+	<a class="pic" href="pictures/13.jpg" target="_blank"> <img src="pictures/13.jpg" width="280" height="200"></a>
+	<a class="pic" href="pictures/14.jpg" target="_blank"> <img src="pictures/14.jpg" width="280" height="200"></a>
+	<a class="pic" href="pictures/15.jpg" target="_blank"> <img src="pictures/15.jpg" width="280" height="200"></a>
+	<a class="pic" href="pictures/16.jpg" target="_blank"> <img src="pictures/16.jpg" width="280" height="200"></a>
+	<a class="pic" href="pictures/17.jpg" target="_blank"> <img src="pictures/17.jpg" width="280" height="200"></a>
+	<a class="pic" href="pictures/18.jpg" target="_blank"> <img src="pictures/18.jpg" width="280" height="200"></a>
+	
+	
+	
+	
+</div>
+
+
+
+<footer>
+    <div>
+         <a href="#top"><img src="pictures/home.jpg" align="left" height="50px" width="50px"></a>	
+         <a href="https://www.facebook.com/sailingworld/" target="_blank page" class="fa fa-facebook"></a>
+         <a href="https://twitter.com/sailingworldmag" target="_blank page" class="fa fa-twitter"></a>
+         <a href="https://www.instagram.com/sailingworldmag/" target="_blank page" class="fa fa-instagram"></a>
+         <a href="https://www.youtube.com/channel/UCwG9Ah2xXDR4CmgsrzYaLCQ/featured" target="_blank page" class="fa fa-youtube"></a>
+         <br>
+            <marquee direction="left" behaviour="scroll" onMouseOver="javascript:stop()"  onMouseOut="javascript:start()" >
+            <span align=center>© Copyright 2017 Sailing</span>
+		   </marquee>
+    </div>
+</footer>
+
+</body>
+
+<script>
+	
+var myVar=setInterval(function(){myTimer()},1000);
+function myTimer()
+{
+var d=new Date();
+var t=d.toLocaleTimeString();
+document.getElementById("Clock").innerHTML=t;
+}
+
+</script>
+
+
+
+</html>
